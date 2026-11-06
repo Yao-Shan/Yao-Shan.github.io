@@ -21,4 +21,11 @@ html[lang=zh-CN] #experience .experience-title{font:500 1.3125rem/1.6 var(--sans
 @media(max-width:1150px){#experience .experience-row{grid-template-columns:8.4375rem minmax(0,1fr);column-gap:1.25rem}}
 @media(max-width:800px){#experience .experience-row{grid-template-columns:minmax(0,1fr);gap:.625rem}#experience .timeline-date{padding-top:0}#experience .experience-title,.research-row .paper-title{font-size:1.375rem}}
 
-.sidebar-bottom .github-profile{display:block;margin-top:16px;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--blue)}
+.sidebar-bottom .github-profile{display:block;margin-top:16px;padding-top:14px;border-top:1px solid #ffffff21;font-size:13px;color:#dbe7f7}
+
+/* Explicit link colors keep navigation and the primary action readable. */
+.sidebar nav a:link,.sidebar nav a:visited{color:#c4cfde}
+.sidebar nav a.active,.sidebar nav a:hover{color:#fff}
+.hero-actions a.button.primary{background-color:#172640;color:#fff}
+.hero-actions a.button.primary:hover{background-color:#294265}
+@media(max-width:800px){.sidebar-bottom .github-profile{margin-top:0;padding-top:5px;border-top:0}}
